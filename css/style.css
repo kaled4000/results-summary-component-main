@@ -1,0 +1,202 @@
+body{
+font-family: 'Hanken Grotesk', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+/*best setup font
+like that 
+@font-face {
+    font-family:'HankenGrotesk';
+    font-display:swap;
+    font-weight:100 900;
+    src: url('assets/font/name font')
+    format('truetype');
+}
+:root{
+    
+*/
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contanier{
+    padding: 30px;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Section 1*/
+.section1{
+    display: flex;
+    align-items: center;
+    background: rgb(51,45,233);
+    background: linear-gradient(0deg, rgba(51,45,233,1) 0%, rgba(106,67,255,1) 100%);
+    border-radius: 20px ;
+    padding: 0 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-border-radius: 20px ;
+    -moz-border-radius: 20px ;
+    -ms-border-radius: 20px ;
+    -o-border-radius: 20px ;
+}
+@media (max-width:750px){
+    .contanier{
+        display: block;
+        width: 100% ;
+        margin-top: -20px;
+        flex-direction: column;
+    }
+    .section1{
+        height: 100%;
+    }
+    .section1 h3{
+        margin-top: 60px;
+    }
+    .section2  h3{
+        margin-bottom: 50px;
+    }
+}
+.section1 h3{
+    color: #ccc2fd;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+   font-family:  'Hanken Grotesk', sans-serif;
+}
+.section1 .num {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 12rem;
+    height: 12rem;
+    text-align: center;
+    font-family:  'Hanken Grotesk', sans-serif;
+    background: rgb(98, 58, 226);
+    background: linear-gradient(360deg, rgba(74,35,204,1) 0%, rgba(70,51,237,1) 100%);
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.section1 .num span{
+    font-size: 5rem;
+    color: white;
+    
+}
+.section1 .num p{
+    display: inline;
+    color: #ccc2fd;
+}
+.section1 div h4{
+    color:white;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.section1 h4+p{
+    width: 15rem;
+    line-height: 1.8;
+    color: white;
+}
+
+/*Sedtion 2*/
+.section2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 4rem 4rem 4rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.progres{
+display: flex;
+justify-content: space-between;
+align-content: space-around;
+width: 15rem;
+background-color: #ccc2fd;
+}
+.section2 .num{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+.section2 .progress-Text{
+    justify-content: center;
+    align-content: baseline;
+}
+.section2 .progres{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 25px;
+    width: 20rem;
+    height: 2rem;
+    border-radius: 10px;
+    font-family:'Hanken Grotesk', sans-serif;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+i {
+    padding-right: 10px;
+}
+.section2 .progress-Text{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section2 .num span {
+    font-weight: bold;
+    color: black;
+}
+._1{
+ background-color: #fccec9;
+ color: #f12222;
+}
+._2{
+background-color: #ffe9b6;
+color: #b98306;
+}
+._3{
+background-color: #cdfffa;
+color: #00b19f;
+}
+._4{ 
+
+    background-color: #c9c9f9;
+    color: #1010ff;
+}
+button{
+    width: 100%;
+    padding: 14px;
+    margin-top: 3'Hanken Grotesk', sans-serif0px;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif ;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: #303b59;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.cont h3{
+    text-transform: capitalize;
+    font-weight: 900;
+}
